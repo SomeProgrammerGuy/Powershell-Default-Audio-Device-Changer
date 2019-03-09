@@ -243,9 +243,9 @@ function Set-DefaultAudioDevice
 
 #   Get-RenderDeviceId "[DEVICENAME]" "[DEVICEINTERFACE]"
 	
-#	or
+#   or
 	
-#	Get-RenderDeviceId "[DEVICENAME]" "[DEVICEINTERFACE]"
+#   Get-RenderDeviceId "[DEVICENAME]" "[DEVICEINTERFACE]"
 
 # Set the default audio device using:
 
