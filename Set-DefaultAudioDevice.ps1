@@ -141,7 +141,7 @@ public class PolicyConfigClient
     {
         IPolicyConfig _policyConfigClient = (new _CPolicyConfigClient() as IPolicyConfig);
 
-	    try
+	try
         {
             Marshal.ThrowExceptionForHR(_policyConfigClient.SetDefaultEndpoint(deviceID, ERole.eConsole));
 		    Marshal.ThrowExceptionForHR(_policyConfigClient.SetDefaultEndpoint(deviceID, ERole.eMultimedia));
