@@ -241,7 +241,7 @@ function Set-DefaultAudioDevice
 
 # Set-DefaultAudioDevice requires a DeviceId which can be obtained using: 
 
-#   Get-RenderDeviceId "[DEVICENAME]" "[DEVICEINTERFACE]"
+#   Get-CaptureDeviceId "[DEVICENAME]" "[DEVICEINTERFACE]"
 	
 #   or
 	
